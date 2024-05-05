@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(0, 173, 52, 0.333)
+    }
+    body {
+    font-size: 20px;
+    height: 150px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+      }
+      
+      .top {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        width: 48px;
+        height: 48px;
+        text-decoration: none;
+        background-color: #6002EE;
+        display: block;
+        text-align: center;
+        border-radius: 24px;
+      }
+      
+      .top::before {
+        content: '\f062';
+        font-family: 'Font Awesome 6 Free';
+        font-size: 30px;
+        font-weight: 900;
+        color: #fff;
+        line-height: 48px;
+      }
+      .green {
+        background-color: green;
+      }
